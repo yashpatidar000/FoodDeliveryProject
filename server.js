@@ -15,9 +15,9 @@ const passport = require('passport')
 const Emitter = require('events')
 
 // Data connection
-const url = 'mongodb://localhost/pizza';
+//const url = 'mongodb://localhost/pizza';
 
-mongoose.connect(url, { useNewUrlParser: true,
+mongoose.connect(process.env.MONGO_CONNECTON_URL, { useNewUrlParser: true,
    useCreateIndex:true, useUnifiedTopology: true, useFindAndModify : true });
 const connection = mongoose.connection;
 
@@ -43,7 +43,7 @@ app.use(session({
   secret: process.env.COOKIE_SECRET,
   resave: false,
   store: MongoDbStore.create({
-    mongoUrl: url,
+    mongoUrl: process.env.MONGO_CONNECTON_URL,
     //client: connection.getClient(),
   }),
   saveUninitialized: false,
@@ -78,6 +78,9 @@ app.set('view engine', 'ejs')
 
 
 require('./routes/web')(app)
+app.use((req, res) => {
+  res.status(404).render('errors/404')
+})
 
 
 const server = app.listen(PORT , () => {
