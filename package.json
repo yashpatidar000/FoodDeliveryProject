@@ -6,6 +6,7 @@
   "author": "Yash Patidar",
   "scripts": {
     "start": "node server.js",
+    "serve": "node server.js",
     "dev": "nodemon server.js"
   },
   "license": "MIT",
@@ -34,5 +35,14 @@
     "resolve-url-loader": "4.0.0",
     "sass": "^1.35.1",
     "sass-loader": "12.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashpatidar000/Food_Delivery_Project.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/yashpatidar000/Food_Delivery_Project/issues"
+  },
+  "homepage": "https://github.com/yashpatidar000/Food_Delivery_Project#readme"
 }
