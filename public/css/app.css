@@ -279,38 +279,38 @@
 body {
   font-family: "Lato", sans-serif;
   -webkit-font-smoothing: antialiased;
-  color: #232323;
+  color: #000000;
 }
 
 nav li:last-child a {
-  background: #FE5F1E;
+  background: #5a3e23e0;
 }
 nav li:last-child a:hover {
-  background: #b23301;
+  background: #b68155;
 }
 
 nav li a {
   transition: all 0.3s ease-in-out;
 }
 nav li a:hover {
-  color: #FE5F1E;
+  color: #5a3e23e0;
 }
 
 section.hero {
-  background: #F8F8F8;
+  background: #fbf9f9;
 }
 
 .size {
-  background: #F8F8F8;
+  background: #fbf9f9;
 }
 
 .add-to-cart {
-  border: 2px solid #FE5F1E;
-  color: #FE5F1E;
+  border: 2px solid #5a3e23e0;
+  color: #5a3e23e0;
   transition: all 0.3s ease-in-out;
 }
 .add-to-cart:hover {
-  background: #FE5F1E;
+  background: #5a3e23e0;
   border-color: #fff;
   color: #fff;
 }
@@ -319,29 +319,29 @@ section.hero {
 }
 
 .btn-primary {
-  background: #FE5F1E;
+  background: #5a3e23e0;
   transition: all 0.3s ease-in-out;
 }
 .btn-primary:hover {
-  background: #b23301;
+  background: #b68155;
 }
 
 section.cart {
-  background: #F8F8F8;
+  background: #fbf9f9;
 }
 section.cart .amount {
-  color: #FE5F1E;
+  color: #5a3e23e0;
 }
 
 section.login {
-  background: #F8F8F8;
+  background: #fbf9f9;
   min-height: calc(100vh - 86px);
 }
 section.login a {
-  color: #FE5F1E;
+  color: #5a3e23e0;
 }
 section.login a:hover {
-  color: #b23301;
+  color: #b68155;
 }
 
 .noty_theme__mint {
@@ -350,11 +350,11 @@ section.login a:hover {
 }
 
 a.link {
-  color: #FE5F1E;
+  color: #5a3e23e0;
 }
 
 section.status {
-  background: #F8F8F8;
+  background: #fbf9f9;
   min-height: calc(100vh - 86px);
 }
 
@@ -376,12 +376,12 @@ section.status {
   position: absolute;
   left: -10px;
   top: 50%;
-  background: #232323;
+  background: #000000;
   width: 10px;
   height: 10px;
   border-radius: 50%;
   transform: translateY(-50%);
-  box-shadow: 0 0 1px 10px #F8F8F8;
+  box-shadow: 0 0 1px 10px #fbf9f9;
 }
 
 .status-box ul li span:before {
@@ -426,32 +426,32 @@ section.status {
   left: -6px;
   width: 2px;
   height: 100%;
-  background: #232323;
+  background: #000000;
   margin-top: 10px;
 }
 
 .status-box ul li:nth-child(5) span:after {
-  box-shadow: 0 20px 1px 20px #F8F8F8;
+  box-shadow: 0 20px 1px 20px #fbf9f9;
 }
 
 .status-box ul li.step-completed:before {
-  background: #ccc;
+  background: #bd996d;
 }
 
 .status-box ul li.step-completed span:after {
-  background: #ccc;
+  background: #bd996d;
 }
 
 .status-box ul li.step-completed span {
-  color: #ccc;
+  color: #bd996d;
 }
 
 .status-box ul li.current span {
-  color: #FE5F1E;
+  color: #5a3e23e0;
 }
 
 .status-box ul li.current span:after {
-  background: #FE5F1E;
+  background: #5a3e23e0;
 }
 
 .status-box ul li small {
